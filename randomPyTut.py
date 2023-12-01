@@ -1,6 +1,10 @@
 import random
+#Random.shuffle()
 
-random.sample([1,5,9,87,6,3,4,8,5,0],4)  #Lists  
-random.sample('KavinRenu',4)  #Strings
+Lt = [k for k in range(11,55,2)]
+print(Lt)
+Lt => Ordered 
 
-# wr to this four elements will be returned as a List
+random.shuffle(Lt)
+print(Lt)
+Lt => Shuffled
