@@ -1,8 +1,6 @@
 import random
 
-random.choices(List)
-random.choices(String)
-random.choices(Tuple)
- 
-#Not for SETS
-#One element will be randomly generated from each
+random.sample([1,5,9,87,6,3,4,8,5,0],4)  #Lists  
+random.sample('KavinRenu',4)  #Strings
+
+# wr to this four elements will be returned as a List
